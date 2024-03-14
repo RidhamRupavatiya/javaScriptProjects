@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Comfortaa&family=Source+Code+Pro:ital,wght@1,200&family=Ubuntu&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(193, 193, 193);
+    font-family: 'Cormorant Garamond', serif; 
+    font-style: oblique;
+    font-family: 'Bacasime Antique', serif;
+    height: 200vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+.sidebar img{
+    width: 145px;
+    padding: 15px;
+}
+.main{
+    background-color: lightcyan;
+    width: 90vw;
+    padding-left: 115px;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+   background-color: lightgoldenrodyellow;
+    height: 68vh;
+    width: 80vw;
+    margin: 135px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    margin-top: 20px;
+    font-size: 2em;
+}
+.buttons{
+    margin-top: 2.2em;
+}
+.btn{
+    padding: 13px;
+    margin-right: 18px;
+    border-radius: 19px;
+    font-size: 1.6em;
+    color: white;
+    margin: 0 3px;
+    background: dodgerblue;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 1.3em;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    color: dodgerblue;
+    background: white;
+}
+.devPic img{
+/*    width: 391px;*/
+    height: 68vh;
+}
+
+
+/* ---------------------- Contact page css --------------------- */
+.contactform{
+    padding: 0 34px;
+    padding-top: 35px;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Bacasime Antique', serif;
+}
+.contactform form{
+    padding-left: 75px;
+}
+.contactform h1{
+    font-family: 'Bacasime Antique', serif;
+}
+.contactform form div{
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 60vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form div button{
+    width: 85px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 7px 0 0 0;
+    padding: 4px;
+}
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0 ;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+/*------------------Blog Container---------------------------*/
+.blogItems{
+    padding-left: 75px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blogContainer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 23px;
+}
+.blogItems p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*------------------About Container---------------------------*/
+.About{
+    padding-top: 37px;
+    padding-left: 75px;
+    margin: 20px;
+    font-family: 'Bacasime Antique', serif;
+}
+.About h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.SkillContainer{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin: 23px;
+}
+.TechnicalSkills{
+    height: 89vh;
+    width: 25vw;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-content: space-around;
+    color: blueviolet;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.SoftSkills{
+    height: 42vh;
+    width: 25vw;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+    justify-content: space-around;
+    color: blueviolet;
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+.SkillCon{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 4vh;
+    width: 18vh;
+    background-color: aliceblue ;
+    border-radius: 15px;
+    margin: 8px;
+    text-align: center;
+}
+.SkillCon2{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 4vh;
+    width: 22vh;
+    background-color: bisque;
+    border-radius: 15px;
+    margin: 8px;
+    text-align: center;
+}
+
+.logoPng{
+    position: relative;
+    top:45px;
+    left: 5px;
+    width: 195px;
+}
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: flex;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    top: 12px;
+    left: 75px;
+    display: flex;
+    cursor: pointer;
+}
+.sidebarGo{
+    transform: translate(-434px,0px);
+    width: 10px;
+}
+
+/*------------Media Queries---------------*/
+@media only screen and (max-width: 1201px) {
+  .TechnicalSkills{
+      width: 30vw;
+      height: 91vh;
+  }
+  .SoftSkills{
+      width: 30vw;
+  }
+}
+@media only screen and (max-width: 1132px) {
+    .main, .About, .blogItems{
+        padding-left: 0px;
+    }
+    .contactform form{
+        padding-left: 0px;
+    }
+    .devPic{
+        display: none;
+    }
+    .contactform form div input{
+        width: 75vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 958px) {
+    .TechnicalSkills{
+        width: 58vw;
+        height: 93vh;
+    }
+    .SoftSkills{
+        margin-top: 20px;
+        width: 58vw;
+        margin-left: 0px;
+    }
+    .SkillContainer{
+        display: block;
+    }
+    .devInfo{
+        font-size: 12px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  @media only screen and (max-width: 442px) {
+    .TechnicalSkills{
+        font-size: 12px;
+        margin-left: 0px;
+        width: 70vw;
+        height: 84vh;
+    }
+    .SoftSkills{
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 70vw;
+    }
+    .SkillContainer{
+        display: block;
+    }
+  }
